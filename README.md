@@ -1,2 +1,3 @@
-# CSCI-462-Blog-Pamons12.github.io
-A blog for CSCI 462 Software Engineering Practicum
+### Introduction
+Welcome to my blog.
+<br/> I am a senior at the College of Charleston and am pursuing a BS in Computer Science.
