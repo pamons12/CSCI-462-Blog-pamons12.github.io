@@ -10,3 +10,4 @@ As of today, my group has been deciding which open-source software we would like
 <br/><span style="margin-left:3em">Miradi is an open-source project management software designed to be used by conservation-based organizations. It helps teams to design, plan, implement, and monitor these organizations' projects. Miradi is also primarily written in Java, which we are all familiar with. 
 3. Blockly
 <br/><span style="margin-left:3em">Blockly is an open-source project that focuses on teaching kids K-12 computer programming. Rather than typing code out, it uses blocks that piece together like puzzle pieces. Blockly is written in  Javascript, which we have limited knowledge of but would be a good learning experience.
+  
