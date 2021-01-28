@@ -14,5 +14,5 @@ As of today, my group has been deciding which open-source software we would like
 ### Reflections on Open Source in Today's World
 The first article I read was about the programming language D. I have personally never heard of the language D, but I found it quite intresting and could see some uses to it. D is usually known as a system programming language, but it can also be used as a scripting language. Although python is the industry leader in scripting languages, D is a good alternative for quick prototyping. After going through the short tutorial of writing and running a simple script, I could see how someone who is proficient in D could prototype a program much quicker than a python programmer could.  This is due to how much power one line of code could have in D; for example, it would only take three fairly short lines of code to read in a file and print each line of that file. Although D seems like a relatively simple language, I think it could have a lot of potential for many different fields. 
 
-D programming article: https://opensource.com/article/21/1/d-scripting
-Exploring binaries article: https://opensource.com/article/21/1/linux-radare2
+<br\>D programming article: https://opensource.com/article/21/1/d-scripting
+<br\>Exploring binaries article: https://opensource.com/article/21/1/linux-radare2
