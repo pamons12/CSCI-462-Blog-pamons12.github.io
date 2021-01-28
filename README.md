@@ -11,3 +11,6 @@ As of today, my group has been deciding which open-source software we would like
 3. Blockly
 <br/><span style="margin-left:3em">Blockly is an open-source project that focuses on teaching kids K-12 computer programming. Rather than typing code out, it uses blocks that piece together like puzzle pieces. Blockly is written in  Javascript, which we have limited knowledge of but would be a good learning experience.
   
+### Reflections on Open Source in Today's World
+D programming article: https://opensource.com/article/21/1/d-scripting
+Exploring binaries article: https://opensource.com/article/21/1/linux-radare2
