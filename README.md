@@ -3,6 +3,8 @@ Welcome to my blog.
 <br/> I am a senior at the College of Charleston and am pursuing a BS in Computer Science.
 
 ### Reflections on FOSS
+The Catherdral and the Bazaar
+
 As of today, my group has been deciding which open-source software we would like to work on throughout this semester. We are meeting later today to make our final decision and to see if we can get this software up and running. Our three candidates are listed below:
 1. Tanaguru Contrast Finder
 <br/><span style="margin-left:3em">Tanaguru is a project dedicated to enhancing the quality and accessibility of web and digital products. The Tanaguru Contrast Finder is an application designed to run within Tanaguru and helps find contrasting colors that promote design quality and accessibility for visually impaired users. Contrast Finder is mostly coded in Java, which we are all familiar with.
