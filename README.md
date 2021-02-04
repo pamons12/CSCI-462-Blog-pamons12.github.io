@@ -4,7 +4,8 @@ Welcome to my blog.
 
 ### Reflections on FOSS
 The Catherdral and the Bazaar
-
+<br/><span style="margin-left:3em">The article "The Cathedral and the Bazaar" by Eric S. Raymond is about open source and uses Linux as an example of an open-source piece of software. A Cathedral typically consists of a single architect who designs the whole building from the bottle up. On the other hand, a Bazaar typically is a collection of many different markets or shops that are privately owned, but they individually still exist under the same roof. Interestingly enough, this article makes the connection between Linux and a Bazaar. Unlike a Cathedral, Raymond argues that Linux is like a Bazaar because there are many different contributors and versions, but in the end, they are all still under the Linux name. I thought this analogy was very clever, and I could see how this could be applied to almost any piece of open-source software. 
+  
 As of today, my group has been deciding which open-source software we would like to work on throughout this semester. We are meeting later today to make our final decision and to see if we can get this software up and running. Our three candidates are listed below:
 1. Tanaguru Contrast Finder
 <br/><span style="margin-left:3em">Tanaguru is a project dedicated to enhancing the quality and accessibility of web and digital products. The Tanaguru Contrast Finder is an application designed to run within Tanaguru and helps find contrasting colors that promote design quality and accessibility for visually impaired users. Contrast Finder is mostly coded in Java, which we are all familiar with.
