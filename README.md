@@ -19,3 +19,5 @@ The first article I read was about the programming language D. I have personally
 
 <br/>D programming article: https://opensource.com/article/21/1/d-scripting
 <br/>Exploring binaries article: https://opensource.com/article/21/1/linux-radare2
+
+### This bugs me
