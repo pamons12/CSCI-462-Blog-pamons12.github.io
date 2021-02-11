@@ -29,7 +29,7 @@ Find the oldest bug that's still open in your chosen project. Write a blog entry
 ### What's Happening? 
 7.22 Run the diff command again, this time without the -u flag, and compare the output to the output when the -u flag is used.
 <br/><span style="margin-left:3em">-Without the -u flag, the diff command displays less information about the two files' changes. It only shows the difference between the two files; it doesn't include the time it was changed or the line numbers where the difference occurred. 
-<br/>Without -u flag
+<br/>Without the -u flag
 ```
 8c8
 <    printf("Hello, World.\n");
