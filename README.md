@@ -25,3 +25,26 @@ The first article I read was about the programming language D. I have personally
 Find the oldest bug that's still open in your chosen project. Write a blog entry describing the problem, with a theory about why the bug hasn't been resolved yet. (Bonus points if you can actually resolve the bug.)
 
 <br/><span style="margin-left:3em">The oldest bug that is still open that I could find for my chosen project, Blockly, is from  March 25, 2015. If I understand the bug correctly, it seems as if when a block is dragged off the screen in the Blockly environment, it will scroll the web page down rather than the Blockly environment itself. I attempted and failed to recreate this on different browsers such as Microsoft Edge, Google Chrome, and Firefox. From my understanding, it seems as if this bug is fixed. Although when I tried to drag the block off-screen, the Blockly window itself did not scroll either. 
+  
+### What's Happening? 
+7.22 Run the diff command again, this time without the -u flag, and compare the output to the output when the -u flag is used.
+<br/><span style="margin-left:3em">-Without the -u flag, the diff command displays less information about the two files' changes. It only shows the difference between the two files; it doesn't include the time it was changed or the line numbers where the difference occurred. 
+Without -u flag
+```
+8c8
+<    printf("Hello, World.\n");
+---
+>    printf("Hello, World!\n");
+```
+With the -u flag
+```
+--- helloc.c.punct    2021-02-11 12:55:37.610201495 -0500
++++ hello.c    2021-02-11 12:55:58.562039387 -0500
+@@ -5,6 +5,6 @@
+ #include <stdio.h>
+ int main(){
+-       printf("Hello, World.\n");
++       printf("Hello, World!\n");
+        return 0;
+ }
+```
