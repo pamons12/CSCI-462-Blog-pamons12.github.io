@@ -53,3 +53,6 @@ With the -u flag
 ## Article from IEEE Software: "Serverless Computing-Where Are We Now, and Where Are We Heading?"
 [Link To Article](https://www-computer-org.nuncio.cofc.edu/csdl/magazine/so/2021/01/09305905/1pNkvj0oEnK)
 
+### Stupid or Solid?
+[Link To Article](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/)
+
