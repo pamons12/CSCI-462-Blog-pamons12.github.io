@@ -56,3 +56,52 @@ With the -u flag
 ## Stupid or Solid?
 [Link To Article](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/)
 
+I thought the Stupid or Solid article was very intresting and should be something all computer science students should read so they can write better code. Starting with STUPID, these are mistakes that programmers often make and should try their best to avoid.  
+### 1. Singleton - avoid the use of singletons
+<br/><span style="margin-left:3em">i. What are singletons? A singleton is when a  class is restricted to one single instance 
+<br/><span style="margin-left:2em">a. Using singletons make testing difficult, and programs that rely on singletons often hide their dependencies
+
+### 2. Tight coupling - also known as strong coupling
+Should reduce coupling between modules
+Coupling is the degree to which each program module relies on another module
+Using tight coupling doesn't allow further changes in  the code without causing a domino effect 
+Untestability - testing should not be hard, 
+Write code so that it can be easily tested
+Usually caused by tight coupling
+Premature optimization - don't do it, 
+It will only make code harder to read and follow
+Most compilers already do this for you 
+Indescriptive Naming - Name classes, methods, attributes, and variables with good names
+Do not abbreviate
+Duplication - Try to avoid duplicating code
+Ex. If a sort needs to be done multiple times on a list, you might as well write a function to do that sort instead of having the sorting code pasted in 10 different spots
+Next up, we have SOLID; these principles should be followed in order to write better code.
+Single Responsibility Principle
+Every class should have a single responsibility
+Never be more than one reason for a class to change
+Split big classes into smaller ones
+Write straight forward comments
+Open/Closed Principle
+Software entities should be open for extension but closed for modification
+Should make all member variables private by default
+Write getters/setters when needed
+Liskov Substitution Principle
+Objects in a program should be replaceable with instances of their subtypes without altering the correctness of the program
+For example, let's say we have a rectangle and square class. We can say both of these classes have a width and height. A rectangle can have different widths and heights where a square has equal width and heights. A square can be a subclass of a rectangle since it shares the same properties of width and height, but on the contrary, a rectangle cannot be a square. This example would be a violation of the Liskov Substitution Principle
+Interface Segregation Principle
+States that many client-specific interfaces are better than one general-purpose interface
+In other words, you should not have to implement methods that you don't want to use
+Enforcing ISP gives you low coupling and high cohesion
+High cohesion means keeping similar and related things together
+Keep your components focused and try to minimize the dependencies between them
+Note this is similar to the Single Responsibility Principle
+Dependency Inversion Principle
+Two key points
+Abstractions should not depend upon details
+Details should depend upon abstractions
+Could be rephrased as use the same level of abstraction at a given level; interfaces should depend on other interfaces, use interfaces in your class methods
+Not the same as dependency injection
+Dependency Injection is about how one object knows about another dependant object
+Rather than working with classes that are tightly coupled, use interfaces, this is called programming to the interface
+This reduces dependency on implementation specifics and makes code more reusable, also ensure that you can replace the implementation without violating the expectations of that interface, according to the Liskov Substitution Principle
+The main takeaway of this article should be that when writing code, developers should try their best to avoid tight coupling as it will likely cause more headaches and trouble than good.
