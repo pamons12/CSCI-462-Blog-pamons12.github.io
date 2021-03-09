@@ -63,16 +63,16 @@ I thought the Stupid or Solid article was very intresting and should be somethin
 
 ### 2. Tight coupling - also known as strong coupling
 <span style="margin-left:2em">a. Should reduce coupling between modules
-<span style="margin-left:2em">b. Coupling is the degree to which each program module relies on another module
-<span style="margin-left:2em">c. Using tight coupling doesn't allow further changes in  the code without causing a domino effect 
+<br/><span style="margin-left:2em">b. Coupling is the degree to which each program module relies on another module
+<br/><span style="margin-left:2em">c. Using tight coupling doesn't allow further changes in  the code without causing a domino effect 
 
 ### Untestability - testing should not be hard 
 <span style="margin-left:2em">a. Write code so that it can be easily tested
-<span style="margin-left:2em">b. Usually caused by tight coupling
+<br/><span style="margin-left:2em">b. Usually caused by tight coupling
 
 ### Premature optimization - don't do it
 <span style="margin-left:2em">a. It will only make code harder to read and follow
-<span style="margin-left:2em">b. Most compilers already do this for you 
+<br/><span style="margin-left:2em">b. Most compilers already do this for you 
 
 ### Indescriptive Naming - Name classes, methods, attributes, and variables with good names
 <span style="margin-left:2em">a. Do not abbreviate
@@ -80,39 +80,39 @@ I thought the Stupid or Solid article was very intresting and should be somethin
 ### Duplication - Try to avoid duplicating code
 <span style="margin-left:2em">a. Ex. If a sort needs to be done multiple times on a list, you might as well write a function to do that sort instead of having the sorting code pasted in 10 different spots
 
-Next up, we have SOLID; these principles should be followed in order to write better code.
+<br/>Next up, we have SOLID; these principles should be followed in order to write better code.
 
 ### Single Responsibility Principle
 <span style="margin-left:2em">a. Every class should have a single responsibility
-<span style="margin-left:2em">b. Never be more than one reason for a class to change
-<span style="margin-left:2em">c. Split big classes into smaller ones
-<span style="margin-left:2em">d. Write straight forward comments
+<br/><span style="margin-left:2em">b. Never be more than one reason for a class to change
+<br/><span style="margin-left:2em">c. Split big classes into smaller ones
+<br/><span style="margin-left:2em">d. Write straight forward comments
 
 ### Open/Closed Principle
 <span style="margin-left:2em">a. Software entities should be open for extension but closed for modification
-<span style="margin-left:2em">b. Should make all member variables private by default
-<span style="margin-left:2em">c. Write getters/setters when needed
+<br/><span style="margin-left:2em">b. Should make all member variables private by default
+<br/><span style="margin-left:2em">c. Write getters/setters when needed
 
 ### Liskov Substitution Principle
 <span style="margin-left:2em">a. Objects in a program should be replaceable with instances of their subtypes without altering the correctness of the program
-<span style="margin-left:2em">b. For example, let's say we have a rectangle and square class. We can say both of these classes have a width and height. A rectangle can have different widths and heights where a square has equal width and heights. A square can be a subclass of a rectangle since it shares the same properties of width and height, but on the contrary, a rectangle cannot be a square. This example would be a violation of the Liskov Substitution Principle
+<br/><span style="margin-left:2em">b. For example, let's say we have a rectangle and square class. We can say both of these classes have a width and height. A rectangle can have different widths and heights where a square has equal width and heights. A square can be a subclass of a rectangle since it shares the same properties of width and height, but on the contrary, a rectangle cannot be a square. This example would be a violation of the Liskov Substitution Principle
 
 ### Interface Segregation Principle
 <span style="margin-left:2em">a. States that many client-specific interfaces are better than one general-purpose interface
-<span style="margin-left:2em">b. In other words, you should not have to implement methods that you don't want to use
-<span style="margin-left:2em">c. Enforcing ISP gives you low coupling and high cohesion
-<span style="margin-left:3em">i. High cohesion means keeping similar and related things together
-<span style="margin-left:2em">d. Keep your components focused and try to minimize the dependencies between them
-<span style="margin-left:2em">e. Note this is similar to the Single Responsibility Principle
+<br/><span style="margin-left:2em">b. In other words, you should not have to implement methods that you don't want to use
+<br/><span style="margin-left:2em">c. Enforcing ISP gives you low coupling and high cohesion
+<br/><span style="margin-left:3em">i. High cohesion means keeping similar and related things together
+<br/><span style="margin-left:2em">d. Keep your components focused and try to minimize the dependencies between them
+<br/><span style="margin-left:2em">e. Note this is similar to the Single Responsibility Principle
 
 ### Dependency Inversion Principle
 <span style="margin-left:2em">a. Two key points
-<span style="margin-left:3em">i. Abstractions should not depend upon details
-<span style="margin-left:3em">ii. Details should depend upon abstractions
-<span style="margin-left:2em">b. Could be rephrased as use the same level of abstraction at a given level; interfaces should depend on other interfaces, use interfaces in your class methods
-<span style="margin-left:2em">c. Not the same as dependency injection
-<span style="margin-left:3em">i. Dependency Injection is about how one object knows about another dependant object
-Rather than working with classes that are tightly coupled, use interfaces, this is called programming to the interface
-This reduces dependency on implementation specifics and makes code more reusable, also ensure that you can replace the implementation without violating the expectations of that interface, according to the Liskov Substitution Principle
+<br/><span style="margin-left:3em">i. Abstractions should not depend upon details
+<br/><span style="margin-left:3em">ii. Details should depend upon abstractions
+<br/><span style="margin-left:2em">b. Could be rephrased as use the same level of abstraction at a given level; interfaces should depend on other interfaces, use interfaces in your class methods
+<br/><span style="margin-left:2em">c. Not the same as dependency injection
+<br/><span style="margin-left:3em">i. Dependency Injection is about how one object knows about another dependant object
+<br/><span style="margin-left:2em">d. Rather than working with classes that are tightly coupled, use interfaces, this is called programming to the interface
+<br/><span style="margin-left:3em">i. This reduces dependency on implementation specifics and makes code more reusable, also ensure that you can replace the implementation without violating the expectations of that interface, according to the Liskov Substitution Principle
 
 The main takeaway of this article should be that when writing code, developers should try their best to avoid tight coupling as it will likely cause more headaches and trouble than good.
