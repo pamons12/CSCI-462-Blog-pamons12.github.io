@@ -66,38 +66,38 @@ I thought the Stupid or Solid article was very intresting and should be somethin
 <br/><span style="margin-left:2em">b. Coupling is the degree to which each program module relies on another module
 <br/><span style="margin-left:2em">c. Using tight coupling doesn't allow further changes in  the code without causing a domino effect 
 
-### Untestability - testing should not be hard 
+### 3. Untestability - testing should not be hard 
 <span style="margin-left:2em">a. Write code so that it can be easily tested
 <br/><span style="margin-left:2em">b. Usually caused by tight coupling
 
-### Premature optimization - don't do it
+### 4. Premature optimization - don't do it
 <span style="margin-left:2em">a. It will only make code harder to read and follow
 <br/><span style="margin-left:2em">b. Most compilers already do this for you 
 
-### Indescriptive Naming - Name classes, methods, attributes, and variables with good names
+### 5. Indescriptive Naming - Name classes, methods, attributes, and variables with good names
 <span style="margin-left:2em">a. Do not abbreviate
   
-### Duplication - Try to avoid duplicating code
+### 6. Duplication - Try to avoid duplicating code
 <span style="margin-left:2em">a. Ex. If a sort needs to be done multiple times on a list, you might as well write a function to do that sort instead of having the sorting code pasted in 10 different spots
 
 <br/>Next up, we have SOLID; these principles should be followed in order to write better code.
 
-### Single Responsibility Principle
+### 1. Single Responsibility Principle
 <span style="margin-left:2em">a. Every class should have a single responsibility
 <br/><span style="margin-left:2em">b. Never be more than one reason for a class to change
 <br/><span style="margin-left:2em">c. Split big classes into smaller ones
 <br/><span style="margin-left:2em">d. Write straight forward comments
 
-### Open/Closed Principle
+### 2. Open/Closed Principle
 <span style="margin-left:2em">a. Software entities should be open for extension but closed for modification
 <br/><span style="margin-left:2em">b. Should make all member variables private by default
 <br/><span style="margin-left:2em">c. Write getters/setters when needed
 
-### Liskov Substitution Principle
+### 3. Liskov Substitution Principle
 <span style="margin-left:2em">a. Objects in a program should be replaceable with instances of their subtypes without altering the correctness of the program
 <br/><span style="margin-left:2em">b. For example, let's say we have a rectangle and square class. We can say both of these classes have a width and height. A rectangle can have different widths and heights where a square has equal width and heights. A square can be a subclass of a rectangle since it shares the same properties of width and height, but on the contrary, a rectangle cannot be a square. This example would be a violation of the Liskov Substitution Principle
 
-### Interface Segregation Principle
+### 4. Interface Segregation Principle
 <span style="margin-left:2em">a. States that many client-specific interfaces are better than one general-purpose interface
 <br/><span style="margin-left:2em">b. In other words, you should not have to implement methods that you don't want to use
 <br/><span style="margin-left:2em">c. Enforcing ISP gives you low coupling and high cohesion
@@ -105,7 +105,7 @@ I thought the Stupid or Solid article was very intresting and should be somethin
 <br/><span style="margin-left:2em">d. Keep your components focused and try to minimize the dependencies between them
 <br/><span style="margin-left:2em">e. Note this is similar to the Single Responsibility Principle
 
-### Dependency Inversion Principle
+### 5. Dependency Inversion Principle
 <span style="margin-left:2em">a. Two key points
 <br/><span style="margin-left:3em">i. Abstractions should not depend upon details
 <br/><span style="margin-left:3em">ii. Details should depend upon abstractions
