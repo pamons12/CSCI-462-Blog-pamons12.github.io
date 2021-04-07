@@ -137,4 +137,4 @@ Chapter 9 from our textbook Client-Centered Software Development talks about the
 
 ## Meeting Charleston
 
-https://www.meetup.com/CharlestonJS/events/gfvdfsyccfbhc/
+[Link to Meeting](https://www.meetup.com/CharlestonJS/events/gfvdfsyccfbhc/)
