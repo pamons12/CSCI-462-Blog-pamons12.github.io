@@ -16,9 +16,9 @@ As of today, my group has been deciding which open-source software we would like
   
 ## Reflections on Open Source in Today's World
 The first article I read was about the programming language D. I have personally never heard of the language D, but I found it quite intresting and could see some uses to it. D is usually known as a system programming language, but it can also be used as a scripting language. Although python is the industry leader in scripting languages, D is a good alternative for quick prototyping. After going through the short tutorial of writing and running a simple script, I could see how someone who is proficient in D could prototype a program much quicker than a python programmer could.  This is due to how much power one line of code could have in D; for example, it would only take three fairly short lines of code to read in a file and print each line of that file. Although D seems like a relatively simple language, I think it could have a lot of potential for many different fields. 
-
-<br/>D programming article: https://opensource.com/article/21/1/d-scripting
-<br/>Exploring binaries article: https://opensource.com/article/21/1/linux-radare2
+<br/>The second article I read was about an open-source tool named Radare2. Radare2 is used to analyze binary files on Linux. So what is a binary file? A binary file is like a text file, but its information is stored in binary format; this format can be easily read by computers but nearly impossible for humans to read without some sort of tool. Currently, there are a few different ways to analyze a binary file, but these ways often are more complicated, involving various tools to get a complete understanding of what the binary file contains. Radare2 is an all-in-one binary file analyzer with good support for external tools via plugins, making this tool a one-stop shop instead of using several others. Every semester I compete in a competition known as the National Cyber League. Sometimes, one of the challenges involves a binary file; in the past, this would usually have taken me a long time to understand what the flag was. Hopefully, Radare2 will help me complete these challenges faster and with more accuracy. 
+<br/>[D programming article](https://opensource.com/article/21/1/d-scripting)
+<br/>[Radare2 article](https://opensource.com/article/21/1/linux-radare2)
 
 ## This bugs me
 6.4. Exercise - Find the Oldest Bug
