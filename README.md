@@ -119,10 +119,10 @@ I thought the Stupid or Solid article was very intresting and should be somethin
 The main takeaway of this article should be that when writing code, developers should try their best to avoid tight coupling as it will likely cause more headaches and trouble than good.
 
 ## Release early and often
-### Chapter 8
+### TOS Chapter 8
 Chapter 8 of TOS discusses the importance of documenting code and various techniques developers could use to write better documentation. Documenting code is essential because it helps others understand your code, and it saves time and money when trying to fix a bug. 
 <br/>[TOS Chapter 8](https://quaid.fedorapeople.org/TOS/Practical_Open_Source_Software_Exploration/html/ch-Explaining_the_Code.html)
-### Chapter 9
+### TOS Chapter 9
 Chapter 9 of TOS discusses the development strategy of releasing early and often. This technique allows developers to receive more valuable feedback from testers before the project is completed. This feedback can be used to make changes before everything has finished. It is easier to make changes to code during the development process as opposed to after. This feedback can also help you figure out features that users don't like so you don't have to spend as much time on it or remove it altogether.
 <br/>[TOS Chapter 9](https://quaid.fedorapeople.org/TOS/Practical_Open_Source_Software_Exploration/html/ch09.html)
 
