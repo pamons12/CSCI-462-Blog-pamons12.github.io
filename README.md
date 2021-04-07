@@ -137,4 +137,4 @@ Chapter 9 from our textbook Client-Centered Software Development talks about the
 
 ## Meeting Charleston
 For this Meeting Charleston blog post, I attended both the Alumni Symposium and a Charleston NodeJS meeting. I thought the Alumni Symposium was a valuable experience in that Alumni could share their experiences after they graduated and the discussion part of the meeting allowed students, faculty, and alumni to further talk about experiences or answer questions. I do think if this meeting were in person, it would have worked out a little better as, over zoom, it was kind of hard to discuss with everyone at once. As for the NodeJS meeting, I thought this was slightly less informative and felt more like a youtube tutorial than anything else, as there wasn't much discussion between participants. Instead, it was one person sharing a presentation of API integration testing. None of the less it was still very informative, but it wasn't like a typical meetup like I was expecting. 
-[NodeJS Group Page](https://www.meetup.com/CharlestonJS/events/gfvdfsyccfbhc/)
+<br/>[NodeJS Group Page](https://www.meetup.com/CharlestonJS/events/gfvdfsyccfbhc/)
